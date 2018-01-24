@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>OWL Lab</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	body {position: relative; }
+	#section0 {padding-top:140px; padding-bottom:10px; color: #fff;}
+	#section1 {padding-top:110px; padding-bottom:10px; color: #000;}
+	#section2 {padding-top:60px; padding-bottom:10px; color: #000;}<!-- background-color: #b00000;} -->
+	#section3 {padding-top:60px; padding-bottom:10px; color: #000;}<!-- background-color: #494949;} -->
+	#section4 {padding-top:60px; padding-bottom:10px; color: #000;}<!-- background-color: #ff9800;} -->
+	#section5 {padding-top:60px; padding-bottom:10px; color: #000;}<!-- background-color: #673ab7;} -->
+	#section6 {padding-top:60px; padding-bottom:10px; color: #000;}<!-- background-color: #1E88E5;} -->
+
+	.carousel-control.left, .carousel-control.right {background-image: none}
+	.carousel-caption{background-color:gray; opacity:0.6;}
+	
+	.people_img{float:left; border: solid white 3px}
+	.people_content{margin-left: 200px;}
+	.spacer{width:100%; height:150px;}
+	
+	.sticky {
+	  position: fixed;
+	  top: -60px;
+	  left:0px;
+	}
+	
+	li:hover{
+		background-color:red;
+	}
+
+	#b1 #l1 a{
+            color: #dfa09f;
+	    font-size:16px;
+	    font-weight:bold;
+	}
+
+	#img1 {
+	    border: 2px solid #ddd; /* Gray border */
+	    border-radius: 4px;  /* Rounded border */
+	    padding: 5px; /* Some padding */
+	    width: 100px; /* Set a small width */
+	    opacity: 0.3;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+	}
+
+	#img1:hover {
+	    opacity: 1;
+	    transition: opacity .55s ease-in-out;
+	    -moz-transition: opacity .55s ease-in-out;
+	    -webkit-transition: opacity .55s ease-in-out;
+
+	}
+
+  
+<!--   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;} -->
+  </style>
+</head>
+
+
+
+<body id="b1" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:transparent; border-radius:0px;border-color:transparent;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+		<img src="header_center_back.png" style="width:300px; position:absolute; margin-left:50%; left:-157px; top:-20px; z-index:-2;">
+		<img src="header_background.png" style="height:112%; width:100%; position:absolute; left:0px; top:0px; z-index:-1;">
+		<img src="header_center.png" style="width:300px; position:absolute; margin-left:50%; left:-150px;">
+		<img src="header_left.png" style="margin-top:5px; margin-left:5px; height:48px; position:absolute;  left:0px;">
+		<img src="header_right.png" style="height:45px; position:absolute; right:10px; top:5px;">
+	
+    </div>
+	<div id="navbar" style="width:100%; height:50px; margin-top:60px; background-color:white;margin-left:0px">
+		<img src="header_logo4.png" href="#" style="height:50px; margin-left:5px; margin-bottom:0px; float:left;">
+		<div style="float:right;margin-top:0px;">
+		  <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+			  <li id="l0"><a href="index1.html">Home</a></li>
+			  <li id="l1"><a href="section1.html">News</a></li>
+			  <li><a href="section2.html">Research</a></li>
+			  <li><a href="section3.html">Publications</a></li>
+<!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#section41">Section 4-1</a></li>
+				  <li><a href="#section42">Section 4-2</a></li>
+				</ul>
+</li> -->
+
+			  <li><a href="section4.html">Team</a></li>
+			  <li><a href="section5.html">Education & Outreach</a></li>
+			  <li><a href="section6.html">Contact</a></li>
+
+			</ul>
+		  </div>
+		</div>
+	</div>
+  </div>
+</nav>    
+
+<div id="content">
+<!-- News -->
+<div id="section1" class="container-fluid">
+  <h1 style="text-decoration:bold;">News</h1>
+	<div style="padding-left:20px;">
+	  <br>
+	  <p style="color:red;"><b><i>2018 Jan 21:</i></b> Looking for Postdocs, Ph.D. and Masters students. Overseas students are also welcome to apply. 
+		Please email your C.V. to me (weeong AT intl.zju.edu.cn) and we will proceed from there.
+	  </p>
+	  <br>
+	  <p>2018 Jan 19: Wee Liat gave a talk at Prof Bo's group at the  Institute for Thermal Power Engineering, Department of Energy Engineering, Zhejiang University, Zhejiang University. 
+	  </p>
+	  <p>2018 Jan 8: Wee Liat gave a talk at the Department of Thermal Science and Energy Engineering, University of Science and Technology of China. 
+		<a target="_blank" href="talk_USTC2018.png"><img id="img1" src="talk_USTC2018.png" alt="Forest"></a>
+	  </p>
+	  <p>2018 Jan 5: Wee Liat gave a talk at Prof Cao's group at the School of Aerospace, Tsinghua University. 
+		<a target="_blank" href="talk_Tsinghua2018.pdf"><img id="img1" src="talk_Tsinghua2018.png" alt="Forest"></a>
+	  </p>
+	  <p>2018 Jan 3: Wee Liat gave a talk at Prof Xiao's group at the Department of Chemistry, Shanghai Normal University. 
+		<a target="_blank" href="talk_SHNU2018.pdf"><img id="img1" src="talk_SHNU2018.png" alt="Forest"></a>
+	  </p>
+	  <p>2017 Dec: Wee Liat gave a talk at Prof Chen's group at the Department of Polymer Science and Engineering, Zhejiang University. 
+		<a target="_blank" href="talk_ZJUpolymer2018_2.png"><img id="img1" src="talk_ZJUpolymer2018.png" alt="Forest"></a>
+	  </p>
+
+	</div>
+</div>
+
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
